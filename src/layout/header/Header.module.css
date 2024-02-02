@@ -39,14 +39,14 @@
   transition: all ease-in-out 0.2s;
 }
 .NavigationItem:hover {
-  background-color: black;
+  background-color: var(--primary-color);
 }
 .NavigationItem:hover .NavigationItemLink {
   color: #ffffff;
 }
 
 .NavigationItemLink {
-  color: #000000;
+  color: var(--seconday-color);
   font-size: 21px;
   font-weight: 500;
 }
@@ -58,6 +58,7 @@
 }
 .LogoLink {
   font-family: "Just Another Hand", cursive;
-  font-size: 40px;
-  color: #000000;
+  font-size: 50px;
+  font-weight: 600;
+  color: var(--primary-color);
 }

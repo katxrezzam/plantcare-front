@@ -4,7 +4,7 @@ import styles from "./Footer.module.css";
 export default function Footer() {
   return (
     <footer className={styles.Footer}>
-      <div className="width-wrapper">
+      <div className="width-wrapper" style={{width:'100%'}}>
         <div className={styles.FooterContainer}>
           <div className={styles.Logo}>
             <Link to="/">PLANTCARE</Link>
