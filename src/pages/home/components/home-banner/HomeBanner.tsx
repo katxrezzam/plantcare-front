@@ -1,7 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import { Button } from "../../../../components";
 import styles from "./HomeBanner.module.css";
 
 export default function HomeBanner() {
+
+  const navigate = useNavigate()
+
   return (
     <section className={styles.HomeBanner}>
       <div className={styles.HomeBannerContainer}>
@@ -14,7 +18,7 @@ export default function HomeBanner() {
             aprendizaje profundo para la clasificacion de enfermedades en las
             hojas de cultivos
           </p>
-          <div className={styles.ButtonContainer}>
+          <div onClick={() => navigate('/prediction')} className={styles.ButtonContainer}>
             <Button>Probar</Button>
           </div>
         </div>
