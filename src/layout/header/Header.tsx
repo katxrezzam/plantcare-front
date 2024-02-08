@@ -30,7 +30,7 @@ export default function Header() {
                 </Link>
               </div>
               <div className={styles.NavigationItem}>
-                <Link className={styles.NavigationItemLink} to="/prediction">
+                <Link className={styles.NavigationItemLink} to="/chat">
                   Probar
                 </Link>
               </div>
