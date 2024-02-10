@@ -1,0 +1,20 @@
+.ChatInput{
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.InputText{
+  width: 100%;
+  height: 100%;
+  padding: 15px 10px;
+}
+.LoadFile, .SendMessage{
+  padding: 15px 20px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  font-size: 30px;
+  cursor: pointer;
+}
+.SendMessage{
+  border-bottom-right-radius: 12px;
+}

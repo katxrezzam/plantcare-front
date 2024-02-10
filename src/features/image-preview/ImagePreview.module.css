@@ -1,0 +1,40 @@
+.ImagePreview {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  height: 300px;
+  width: 500px;
+  padding: 15px;
+  box-shadow: var(--shadow-color);
+}
+.ImageContainer {
+  position: relative;
+}
+.imageLoadedContainer img{
+  width: 500px;
+  height: 200px;
+}
+.ButtonClose {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  border-radius: 50%;
+  padding: 2.5px 5px;
+  cursor: pointer;
+}
+.Predict {
+  background-color: Var(--primary-color);
+  width: 100px;
+  color: #fff;
+  padding: 5px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.FormContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px
+}

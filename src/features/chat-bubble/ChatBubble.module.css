@@ -1,0 +1,9 @@
+.ChatBubble{
+  display: flex;
+}
+.ChatBubble p{
+  width: fit-content;
+  max-width: 75%;
+  font-size: 0.95rem;
+  padding: 15px 16px;
+}

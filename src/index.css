@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
-:root{
-  --primary-color: #79BD46;
-  --secondary-color: #4B5743;
-  --terciary-color: #688A4E;
+@import url("https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap");
+:root {
+  --primary-color: #79bd46;
+  --secondary-color: #4b5743;
+  --terciary-color: #688a4e;
+  --shadow-color: 2px 3px 5px 1px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.35);
 }
 * {
   margin: 0;
@@ -11,7 +14,7 @@
   box-sizing: border-box;
   font-family: Roboto;
 }
-#root{
+#root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -31,6 +34,9 @@ select {
   border: none;
   outline: none;
 }
+ul{
+  list-style: none;
+}
 h1,
 h2,
 h3,
@@ -47,4 +53,28 @@ a {
   margin: 0 auto;
   max-width: 1300px;
   height: 100%;
+}
+textarea {
+  resize: none;
+}
+.Bot .children{
+  background-color: #f2f2f2;
+  color: #000;
+  border-radius: 0 10px 10px 10px;
+}
+.User{
+  margin: 20px 0;
+  justify-content: flex-end;
+}
+.Bot{
+  margin: 20px 0;
+}
+.User .children{
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 10px 10px 0 10px;
+}
+/* Ocultar el texto que se muestra junto al botón de carga de archivos */
+input[type='file'] {
+color: white;
 }
