@@ -18,7 +18,7 @@ export default function HomeBanner() {
             aprendizaje profundo para la clasificacion de enfermedades en las
             hojas de cultivos
           </p>
-          <div onClick={() => navigate('/prediction')} className={styles.ButtonContainer}>
+          <div onClick={() => navigate('/chat')} className={styles.ButtonContainer}>
             <Button>Probar</Button>
           </div>
         </div>
